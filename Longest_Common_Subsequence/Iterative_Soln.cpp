@@ -32,8 +32,7 @@ int main()
     int M = X.size();
     int N = Y.size();
 
-    int t[M+1][N+1];
-    memset(t, -1, sizeof(t));
+
 
 
     cout<<"Length of LCS is "<< LCS( X, Y, M, N ) ;
