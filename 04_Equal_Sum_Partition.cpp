@@ -7,7 +7,7 @@ bool canPartition(vector<int>& nums) {
     for(auto i:nums)
         sum+=i;
     
-    if(sum%2)  // if the sum is odd, there is no chance for that array to have two equal subsets
+    if(sum%2!=0)  // if the sum is odd, there is no chance for that array to have two equal subsets
         return false;
     else
     {
