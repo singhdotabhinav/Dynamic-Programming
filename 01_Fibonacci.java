@@ -20,5 +20,6 @@ public class Main
 	    int fibn=fib1+fib2;
 	    t[n]=fibn;
 	    return t[n];
+		// cute
 	}	
 }
